@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=designPatterns/src&lt;com.exilant.facade{ICar.java[ICar" modifiers="513" timestamp="1531375132000"/>
+    <typeInfo handle="=designPatterns/src&lt;com.training.strategy{Payment.java[Payment" modifiers="513" timestamp="1531386555000"/>
+    <typeInfo handle="=designPatterns/src&lt;com.exilant.observer{IObserver.java[IObserver" modifiers="513" timestamp="1531389756000"/>
+    <typeInfo handle="=designPatterns/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_131.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.awt.image(ImageObserver.class[ImageObserver" modifiers="1537" timestamp="1489567893000"/>
+    <typeInfo handle="=designPatterns/src&lt;com.training.servicelocator{Service.java[Service" modifiers="513" timestamp="1531393567000"/>
+    <typeInfo handle="=CaseStudy/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_131.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.util(Formatter$FormatString.class[FormatString" modifiers="1546" timestamp="1489567893000"/>
+    <typeInfo handle="=CaseStudy/\/Library\/Java\/JavaVirtualMachines\/jdk1.8.0_131.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;java.util(Formattable.class[Formattable" modifiers="1537" timestamp="1489567893000"/>
+    <typeInfo handle="=SpringWorks/src&lt;com.training.basics{HelloService.java[HelloService" modifiers="513" timestamp="1531805779000"/>
+    <typeInfo handle="=SpringWorks/src&lt;com.training.helloi18n{Greeting.java[Greeting" modifiers="513" timestamp="1531810687000"/>
+    <typeInfo handle="=SpringWorks/src&lt;com.training.profile{DatabaseConfig.java[DatabaseConfig" modifiers="513" timestamp="1531895916000"/>
+    <typeInfo handle="=SpringWorks/db&lt;com.training.entity{IEmployeeDAO.java[IEmployeeDAO" modifiers="513" timestamp="1531908874000"/>
+</typeInfoHistroy>

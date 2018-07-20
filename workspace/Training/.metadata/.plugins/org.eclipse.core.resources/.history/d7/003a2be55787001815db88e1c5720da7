@@ -1,0 +1,15 @@
+package booleanCaseStudy;
+
+public class Client {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Formula fv=null;
+		fv=(Formula) new AndTerm();
+		FormulaVisitor f=(FormulaVisitor) new FormulaEvaluator();
+		fv.accept(f);
+		
+		
+	}
+
+}

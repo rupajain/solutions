@@ -1,0 +1,10 @@
+package com.training.exilant.restfulworks.user;
+
+import java.util.Date;
+
+public class User {
+private Integer userId;
+private String name;
+private Date birthDate;
+
+}

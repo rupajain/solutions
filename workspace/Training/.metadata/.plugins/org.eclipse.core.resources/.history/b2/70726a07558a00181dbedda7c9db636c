@@ -1,0 +1,9 @@
+package com.training.profile;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+@ComponentScan(basePackageClasses="com.training.profile")
+@Configuration
+public class AppConfig {
+
+}

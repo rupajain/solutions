@@ -1,0 +1,5 @@
+package com.training.exilant.restfulworks.exception;
+
+public class ErrorDetails {
+
+}

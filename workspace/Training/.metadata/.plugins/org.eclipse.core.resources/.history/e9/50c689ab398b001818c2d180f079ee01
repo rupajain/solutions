@@ -1,0 +1,27 @@
+package com.training.exilant.restfulworks;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloWorldController {
+	//@RequestMapping(method=RequestMethod.GET,path="hello-world")
+	@GetMapping(path="/hello-world")
+	public String helloWorl()
+	{
+	return "HelloWorld";	
+	}
+	
+	@GetMapping(path="/hello-world-bean")
+	public HelloWorld hellowor()
+	{
+		return new HelloWorld("hello wrold");
+	}
+
+	public HelloWorld helloWorldPathVariable()
+	{
+		return new HelloWorld(message);
+	}
+}

@@ -1,0 +1,7 @@
+package bollean;
+
+import java.nio.channels.AcceptPendingException;
+
+public interface Formula {
+void accept();
+}

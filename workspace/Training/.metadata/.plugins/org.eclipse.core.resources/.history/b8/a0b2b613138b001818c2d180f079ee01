@@ -1,0 +1,20 @@
+package com.training.aop.client;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.training.aop.model.Account;
+
+public class Client {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ApplicationContext context = new ClassPathXmlApplicationContext("aspect-context.xml");
+
+		Account account = context.getBean("Account", Account.class);
+
+		System.out.println(account.getAccName());
+
+	}
+
+}

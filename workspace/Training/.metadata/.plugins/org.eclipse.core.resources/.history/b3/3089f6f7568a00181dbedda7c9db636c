@@ -1,0 +1,17 @@
+package com.training.profile;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class Client {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ApplicationContext context=new AnnotationConfigApplicationContext(AppConfig.class);
+
+((AnnotationConfigApplicationContext)context).getEnvironment().setActiveProfiles("Production");
+
+//scans mentioned packages and register all the components vaailable in spring
+	}
+
+}

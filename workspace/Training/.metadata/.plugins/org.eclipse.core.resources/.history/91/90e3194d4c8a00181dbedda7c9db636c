@@ -1,0 +1,21 @@
+package com.training.autowire;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Camera {
+	//
+private @Value("${type}")  String type;
+public Camera() {
+	// TODO Auto-generated constructor stub
+	System.out.println("creating camera..."+this);
+}
+public String getType() {
+	return type;
+}
+public void setType(String type) {
+	this.type = type;
+}
+
+}

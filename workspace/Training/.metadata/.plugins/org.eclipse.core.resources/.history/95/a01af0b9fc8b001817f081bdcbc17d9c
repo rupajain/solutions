@@ -1,0 +1,5 @@
+package com.training.microservices.currencyservice;
+
+public class Configuration {
+
+}

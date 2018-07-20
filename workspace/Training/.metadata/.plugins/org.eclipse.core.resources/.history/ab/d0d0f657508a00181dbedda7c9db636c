@@ -1,0 +1,15 @@
+package com.training.messagesource;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Client {
+public static void main(String[] args) {
+	ApplicationContext context=new ClassPathXmlApplicationContext("message-resource-context.xml");
+	
+	
+	
+	String eng=context.getMessage("goodmorning", arg1)
+	HelloWorld helloWorld=context.getBean("HelloWorld",HelloWorld.class);
+}
+}

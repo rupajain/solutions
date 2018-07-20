@@ -1,0 +1,9 @@
+package bollean;
+
+public interface FormulaVisitor {
+public void visit(XorTerm formula);
+public void visit(XorTerm formula);
+public void visit(XorTerm formula);
+public void visit(XorTerm formula);
+public void visit(XorTerm formula);
+}

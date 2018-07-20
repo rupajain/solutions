@@ -1,0 +1,5 @@
+package com.training.exilant.restfulworks.user;
+
+public class User {
+
+}

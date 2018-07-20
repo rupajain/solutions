@@ -1,0 +1,10 @@
+package bollean;
+
+public class XorTerm implements Formula{
+
+	@Override
+	public void accept() {
+		System.out.println("XoTerm");
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.training.messagesource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.MessageSource;
+
+public class HelloWorld {
+private String greeting;
+private String message;
+
+@Autowired
+private MessageSource messageSource;
+}

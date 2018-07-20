@@ -1,0 +1,6 @@
+package com.training.aop.model;
+
+public class SBAccount {
+private Account acc;
+
+}

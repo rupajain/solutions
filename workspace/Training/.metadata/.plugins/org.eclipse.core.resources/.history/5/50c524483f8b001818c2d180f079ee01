@@ -1,0 +1,9 @@
+package com.training.exilant.restfulworks.user;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class UserDAOService {
+//we r simulating the db
+	//it is kept in the list
+}

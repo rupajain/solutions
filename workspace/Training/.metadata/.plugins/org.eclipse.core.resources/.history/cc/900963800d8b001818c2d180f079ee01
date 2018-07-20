@@ -1,0 +1,9 @@
+package com.training.aop.service;
+
+import com.training.aop.model.SBAccount;
+
+public class BankingService {
+private SBAccount sbAccount;
+private  CAAcount caacount;
+
+}

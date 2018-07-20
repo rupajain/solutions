@@ -1,0 +1,23 @@
+package com.training.aop.banking;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Aspect;
+
+@Aspect
+public class LoggingAspectAround {
+public Object sampleMyAroundAdvice(ProceedingJoinPoint proceedingJoinPoint)
+{
+	//this advice should have complusory argument
+
+	Object retVal=null;
+	System.out.println("before job goes here..");
+	try {
+		proceedingJoinPoint.proceed();
+	} catch (Throwable e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	System.out.println("after job goes here..");
+	return retVal;
+}
+}

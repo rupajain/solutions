@@ -1,0 +1,31 @@
+package com.training.exilant.restfulworks.user;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+//user gives users
+//userId gives obe user
+//
+
+
+
+@RestController
+public class UserResource {
+	@Autowired
+private UserDAOService userDAOService;
+	
+	@GetMapping("/users")
+	public List<User> getAllUsers()
+	{
+		return userDAOService.getAllUsers();
+	}
+	@GetMapping("/user/{userId}")
+	public User getoneUser(@PathVariable int userId)
+	{
+		return userDAOService.getUser(userId);
+	}
+
+}

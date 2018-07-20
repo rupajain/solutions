@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<bean id="questionBank" class="com.training.collections">
+<property name="question" value="inheritance is avai...."/>
+
+<property name="options">
+<list>
+<value>java</value>
+<value>java</value>
+<value>java</value>
+<value>java</value>
+</list>
+</bean>
+
+</beans>

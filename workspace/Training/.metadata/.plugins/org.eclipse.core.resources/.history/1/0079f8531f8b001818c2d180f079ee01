@@ -1,0 +1,11 @@
+package com.training.aop.banking;
+
+import org.aspectj.lang.annotation.After;
+
+public class LoggingAspectAfter {
+@After("execution(* get*())")
+	public void afterGetter()
+{
+	System.out.println("$$$$$$$ after advice onvoked..");
+}
+}

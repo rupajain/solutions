@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   http://www.springframework.org/schema/beans/spring-beans.xsd">
+	   
+	   <bean id="employee" class= "com.training.employee.Employee" scope="prototype" init-method="init">
+	   <!-- autoboxing is taken care by spring -->
+	   <!-- thaty can be supplied wth bean either setter or con -->
+	   <property name="empId" value="101"/>
+	    <property name="empName" value="rupa"/>
+	     <property name="empSal" value="1000000"/>
+	     </bean>
+	   </beans>

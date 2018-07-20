@@ -1,0 +1,7 @@
+package com.training.employee;
+
+public class Employee {
+private int empId;
+private int empName;
+private double empSal;
+}

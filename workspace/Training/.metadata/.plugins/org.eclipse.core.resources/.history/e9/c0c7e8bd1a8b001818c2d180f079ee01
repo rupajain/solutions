@@ -1,0 +1,18 @@
+package com.training.aop.model;
+
+public class CAAcount {
+	private Account account;
+
+	public Account getAccount() {
+		return account;
+	}
+
+	public void setAccount(Account account) {
+		this.account = account;
+	}
+
+	public double showBalance() {
+		this.getAccount();
+		return account.getBalance();
+	}
+}

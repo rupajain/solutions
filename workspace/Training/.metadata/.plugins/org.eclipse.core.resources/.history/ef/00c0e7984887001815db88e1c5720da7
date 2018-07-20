@@ -1,0 +1,7 @@
+package bollean;
+
+
+
+public interface Formula {
+void accept();
+}

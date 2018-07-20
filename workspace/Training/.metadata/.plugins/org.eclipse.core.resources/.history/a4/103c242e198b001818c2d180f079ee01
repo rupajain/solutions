@@ -1,0 +1,19 @@
+package com.training.aop.banking;
+
+import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+
+@Aspect
+public class LoggingAspect {
+	//this will scan for any package configured
+	//this will scan any class
+	//@Before("execution(public double getBalance())")
+public void loggingAdviceBefore() {
+	System.out.println("************logging before called**************");
+}
+	@After("execution(public double getBalance())")
+	public void loggingAdviceAfter() {
+		System.out.println("************logging after called**************");
+	}
+}

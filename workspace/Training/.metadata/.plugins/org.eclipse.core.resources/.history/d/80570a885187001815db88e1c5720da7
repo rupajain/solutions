@@ -1,0 +1,8 @@
+package bollean;
+
+
+
+public interface Formula {
+void accept(FormulaVisitor visitor);
+int getformula(NFoldTerm t1,NFoldTerm t2);
+}

@@ -1,0 +1,5 @@
+package com.training.exilant.restfulworks.exception;
+//this class will be user for formatting the exception message
+public class ErrorDetails {
+
+}

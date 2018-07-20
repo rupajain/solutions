@@ -1,0 +1,5 @@
+package bollean;
+
+public interface FormulaVisitor {
+public void visit(Formula);
+}

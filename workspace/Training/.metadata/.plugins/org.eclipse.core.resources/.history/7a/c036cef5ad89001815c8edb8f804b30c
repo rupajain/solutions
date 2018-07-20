@@ -1,0 +1,12 @@
+package com.training.autowire;
+
+public class Screen {
+private String glassType;
+private int len;
+private int bre;
+public Screen() {
+	// TODO Auto-generated constructor stub
+	
+	System.out.println("creating scrrens:  "+this);
+}
+}

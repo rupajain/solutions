@@ -1,0 +1,16 @@
+package com.training.autowire;
+
+public class Mobile {
+private Camera camera;
+private Screen screen;
+private Speaker speaker;
+
+
+public Mobile() {
+	// TODO Auto-generated constructor stub
+	
+	System.out.println("creating mobile.."+this);
+}
+
+
+}

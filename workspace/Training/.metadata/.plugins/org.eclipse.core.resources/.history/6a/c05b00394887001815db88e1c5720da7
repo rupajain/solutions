@@ -1,0 +1,12 @@
+package bollean;
+
+public class OrTerm extends NFoldTerm {
+	
+	@Override
+	public void accept() {
+		// TODO Auto-generated method stub
+		super.accept();
+		System.out.println("AnTerm");
+	}
+	
+}

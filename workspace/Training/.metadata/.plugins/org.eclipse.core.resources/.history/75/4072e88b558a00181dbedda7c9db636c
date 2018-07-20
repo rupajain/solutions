@@ -1,0 +1,15 @@
+package com.training.profile;
+
+import javax.sql.DataSource;
+
+import org.springframework.context.annotation.Profile;
+@Profile("Development")
+public class DevDatabaseConfig implements DatabaseConfig{
+
+	@Override
+	public DataSource createDataSource() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

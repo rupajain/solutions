@@ -1,0 +1,15 @@
+package com.training.exilant.restfulworks.exception;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.context.request.WebRequest;
+import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+@ControllerAdvice
+@RestController
+public class CustomresponseEntityExceptionHandler extends ResponseEntityExceptionHandler {
+//we want to have a method which can behandles all type of exceptions
+	public ResponseEntity<Object> handleAllException(Exception ex,WebRequest request){
+		
+	}
+}

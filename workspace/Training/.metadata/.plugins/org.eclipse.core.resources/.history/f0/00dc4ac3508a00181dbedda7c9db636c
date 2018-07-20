@@ -1,0 +1,25 @@
+package com.training.messagesource;
+
+import java.util.Locale;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Client {
+public static void main(String[] args) {
+	ApplicationContext context=new ClassPathXmlApplicationContext("message-resource-context.xml");
+	
+	
+	
+	String enggoodmorning=context.getMessage("goodmorning", new Object[] {},null);
+	String frgoodmorning=context.getMessage("goodmorning", new Object[] {},new Locale("Fr"));
+	
+	
+	System.out.println(enggoodmorning);
+	System.out.println(frgoodmorning);
+	
+	
+	HelloWorld helloWorld=context.getBean("helloworld",HelloWorld.class);
+	
+}
+}

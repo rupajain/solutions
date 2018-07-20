@@ -1,0 +1,48 @@
+package com.training.autowire;
+
+import org.springframework.stereotype.Component;
+
+public class Mobile {
+private Camera camera;
+private Screen screen;
+private Speaker speaker;
+
+@Component
+public Mobile() {
+	// TODO Auto-generated constructor stub
+	
+	System.out.println("creating mobile.."+this);
+}
+
+
+public Camera getCamera() {
+	return camera;
+}
+
+
+public void setCamera(Camera camera) {
+	this.camera = camera;
+}
+
+
+public Screen getScreen() {
+	return screen;
+}
+
+
+public void setScreen(Screen screen) {
+	this.screen = screen;
+}
+
+
+public Speaker getSpeaker() {
+	return speaker;
+}
+
+
+public void setSpeaker(Speaker speaker) {
+	this.speaker = speaker;
+}
+
+
+}

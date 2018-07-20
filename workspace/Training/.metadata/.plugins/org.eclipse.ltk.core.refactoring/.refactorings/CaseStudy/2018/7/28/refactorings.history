@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;bollean&apos; to &apos;booleanCaseStudy&apos;&#x0A;- Original project: &apos;CaseStudy&apos;&#x0A;- Original element: &apos;CaseStudy/src/bollean&apos;&#x0A;- Renamed element: &apos;CaseStudy/src/booleanCaseStudy&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;bollean&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;bollean" name="booleanCaseStudy" qualified="false" references="true" stamp="1531566645699" textual="false" version="1.0"/>
+</session>

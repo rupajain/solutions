@@ -1,0 +1,11 @@
+package bollean;
+
+public class NFoldTerm implements Formula{
+
+	@Override
+	public void accept() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,48 @@
+package com.training.DAO;
+
+import java.util.List;
+
+import javax.activation.DataSource;
+
+import com.training.entity.Employee;
+import com.training.entity.IEmployeeDAO;
+
+public class EmployeeDAO implements IEmployeeDAO {
+
+	@Override
+	public Employee getEmployee(int empId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Employee> getAllEmps() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void insertEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void deleteEmployee(int empId) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void updateEmployee(int empId, double empNewSalary) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setDataSource(DataSource dataSource) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

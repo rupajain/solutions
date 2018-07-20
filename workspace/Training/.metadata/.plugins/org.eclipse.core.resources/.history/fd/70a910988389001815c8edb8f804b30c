@@ -1,0 +1,17 @@
+package com.training.basics;
+
+public class DefaultHello implements HelloService {
+
+	@Override
+	public String sayHello() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String sayHello(String name, String city) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

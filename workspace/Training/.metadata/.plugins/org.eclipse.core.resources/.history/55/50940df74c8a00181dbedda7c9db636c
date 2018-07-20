@@ -1,0 +1,11 @@
+package com.training.messagesource;
+
+import org.springframework.context.MessageSource;
+
+public class HelloWorld {
+private String greeting;
+private String message;
+
+
+private MessageSource messageSource;
+}

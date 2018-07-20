@@ -1,0 +1,17 @@
+package bollean;
+
+public class NFoldTerm implements Formula{
+
+	@Override
+	public void accept(FormulaVisitor visitor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getformula(NFoldTerm t1, NFoldTerm t2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

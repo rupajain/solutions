@@ -1,0 +1,14 @@
+package bollean;
+
+public class Client {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int ipr1,opr2;
+System.out.println("calling and");
+
+Formula f=(Formula) new FormulaEvaluator(); 
+f.getformula(ipr1, opr2);
+	}
+
+}

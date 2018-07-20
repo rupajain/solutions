@@ -1,0 +1,11 @@
+package bollean;
+
+public class FormulaEvaluator implements FormulaVisitor {
+
+	@Override
+	public void visit(Formula formula) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,60 @@
+package com.training.dao;
+
+import java.util.List;
+
+import javax.sql.DataSource;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.training.entity.Employee;
+import com.training.entity.IEmployeeDAO;
+
+public class EmployeeDAO implements IEmployeeDAO {
+	private DataSource datasource;
+	private JdbcTemplate jdbcTemplateObject;
+
+	@Override
+	public Employee getEmployee(int empId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Employee> getAllEmps() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void insertEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		String sql = "insert into Employee (empId,empName,empSal) "+"values (?,?,?)";
+		
+		
+		
+		
+		jdbcTemplateObject.update(sql, employee.getEmpId(), employee.getEmpName(), employee.getEmpSal());
+		System.out.println("record cerated:.."+employee);
+		return;
+	}
+
+	@Override
+	public void deleteEmployee(int empId) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void updateEmployee(int empId, double empNewSalary) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setDataSource(javax.sql.DataSource dataSource) {
+		// TODO Auto-generated method stub
+		this.datasource = dataSource;
+		this.jdbcTemplateObject = new JdbcTemplate(dataSource);
+	}
+
+}

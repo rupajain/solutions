@@ -1,0 +1,14 @@
+package com.training.helloi18n;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class AppConfig {
+	public Greeting enGreeting() {
+		return new GreetEnglish();
+	};
+
+	public Greeting frenchGreet() {
+		return new GreetFrench();
+	}
+}

@@ -1,0 +1,20 @@
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:aop="http://www.springframework.org/schema/aop"   
+       xsi:schemaLocation="http://www.springframework.org/schema/beans   
+       http://www.springframework.org/schema/beans/spring-beans.xsd   
+       http://www.springframework.org/schema/aop   
+       http://www.springframework.org/schema/aop/spring-aop.xsd">  
+       <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+       
+       <bean id="account1" class="com.training.aop.model.Account">
+       <property name="accNo" value="101"></property>
+       <property name="accName" value="ssss"></property>
+       <property name="balance" value="111111"></property>
+       </bean>
+       
+       <bean id="sbaccount" class="com.training.aop.model.SBAccount">
+       <property name="acc" value="101"></property>
+       
+       </bean>
+  </beans>
