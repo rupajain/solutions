@@ -1,0 +1,14 @@
+curl --header "X-Vault-Token: 6adIAN8Zht18EtMxGjcIJgTq" --request GET --data @payload.json  http://127.0.0.1:8200/v1/secret/data/baz/foo
+       
+       
+       
+       curl --header "X-Vault-Token: 4BHkECPl2tUMDxMdPYT2Rhze"  --request POST --data @payload.json  http://127.0.0.1:8200/v1/secret/data/baz/foo
+
+
+
+
+
+
+curl --header "X-Vault-Token: 5Pe7HyieBf1HseIrWWFZvFhD" \
+>        --request GET \
+>        --data @payload.json \
